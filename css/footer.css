@@ -1,0 +1,410 @@
+.footer {
+    padding-top: 41px;
+    margin-bottom: 20px
+}
+
+.register-container .top-login, .register-container .footer, .register-container .small-col-layout {
+    max-width: 892px;
+    margin: 0 auto
+}
+
+.register .small-col-layout > .row > * {
+    padding: 5px
+}
+
+@media (min-width: 992px) {
+    .register-container .small-col-layout > .row > div:nth-child(1) {
+        padding-right: 15px
+    }
+
+    .register-container .small-col-layout > .row > div:nth-child(2) {
+        padding-left: 15px
+    }
+}
+
+.register .inner-col {
+    padding: 64px 32px 60px
+}
+
+.register .side-note {
+    font: 12px/32px var(--font-regular), Arial, sans-serif;
+    letter-spacing: 0;
+    display: block;
+    vertical-align: top
+}
+
+.register .side-note a {
+    text-decoration: underline
+}
+
+.register .register-message a {
+    text-decoration: underline
+}
+
+.register .side-note a:hover {
+    text-decoration: none
+}
+
+.register .btn-wrap .side-note {
+    line-height: 16px;
+    margin: 5px 0 0
+}
+
+.register .benefits {
+    margin: 0 17px 40px;
+    text-align: center;
+    border-bottom-width: 2px;
+    border-bottom-style: solid
+}
+
+.register .benefits:last-child {
+    border: none;
+    margin: 0 17px 20px
+}
+
+.register .benefits .img-wrap {
+    height: 44px;
+    margin: 0 0 32px;
+    text-align: center
+}
+
+.register .benefits span {
+    display: block;
+    margin-bottom: 24px;
+    font: 12px/16px var(--font-regular), Arial, sans-serif
+}
+
+.register .benefits .h3 {
+    margin-bottom: 22px
+}
+
+.register .custom.pincode {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 40px;
+    height: 36px;
+    border-right-width: 1px;
+    border-right-style: solid
+}
+
+.register .custom.pincode.first {
+    margin-left: 0
+}
+
+.register .register-message {
+    font: 12px/32px var(--font-regular), Arial, sans-serif;
+    display: block;
+    text-align: center;
+    margin: 15px 0
+}
+
+.register .register-message.margin-top {
+    margin-top: 20px
+}
+
+.register .register-message a:hover {
+    text-decoration: none
+}
+
+.register .load.reset {
+    width: 165px
+}
+
+.register .inner-text {
+    margin: 60px 0 30px
+}
+
+.pass-hint p {
+    font: 14px/20px var(--font-regular), Arial, sans-serif
+}
+
+.agree-text p {
+    width: 85%
+}
+
+.register .inner-text p {
+    font: 14px/20px var(--font-regular), Arial, sans-serif
+}
+
+.register small {
+    font-size: 11px;
+    line-height: 13px;
+    opacity: .6
+}
+
+.register small.calc-price {
+    font: 12px/16px var(--font-regular) !important;
+    opacity: 1 !important
+}
+
+.register .help {
+    opacity: .4;
+    font-family: var(--font-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0 0 27px
+}
+
+.register .phone {
+    font-family: var(--font-primary);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 23px 0 12px
+}
+
+.footer .copyright-text {
+    font-size: 12px
+}
+
+.register label {
+    font-family: var(--font-regular);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px
+}
+
+.title-wrap {
+    text-align: center
+}
+
+.title-wrap .h2.custom {
+    display: block
+}
+
+.register .btn-wrap {
+    text-align: center
+}
+
+.register .btn.custom {
+    margin: 5px auto 0
+}
+
+.register-container .pin-note, .register-container .input-validation-error + p.pin-note, .register-container .input-validation-error + .pin-container.focus + p.pin-note {
+    display: none
+}
+
+.register-container .pin-container.focus + .pin-note {
+    display: block
+}
+
+@media (min-width: 576px) {
+    .btn-wrap .side-note {
+        width: 60%;
+        margin: 12px 0 0;
+        display: inline-block
+    }
+
+    .register .side-note {
+        display: inline-block;
+        margin: 0 0 0 10px
+    }
+
+    .title-wrap .h2.custom {
+        display: inline-block;
+        margin: 0 0 5px
+    }
+
+    .title-wrap {
+        margin: 0;
+        text-align: left
+    }
+
+    .register .btn-wrap {
+        text-align: left
+    }
+
+    .register .btn.custom {
+        margin: 8px 10px 10px 0
+    }
+
+    .register .register-message {
+        text-align: left
+    }
+
+    .register .benefits .img-wrap {
+        margin: 0 0 42px
+    }
+
+    .register .benefits .h3 {
+        margin-bottom: 32px
+    }
+
+    .register .benefits, .register .benefits:last-child {
+        border-bottom: none;
+        margin: 0
+    }
+
+    .register .help {
+        margin: 0
+    }
+
+    .register .phone, .register .program {
+        margin: 0 0 1rem
+    }
+}
+
+@media (min-width: 768px) {
+    .footer {
+        padding-top: 50px
+    }
+}
+
+.pass-hint {
+    display: none
+}
+
+.pass-hint.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+@-webkit-keyframes passhint {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        left: -9999px;
+        height: 0;
+        margin: 0
+    }
+}
+
+@keyframes passhint {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        left: -9999px;
+        height: 0;
+        margin: 0
+    }
+}
+
+.pass-hint p.done {
+    text-decoration: line-through
+}
+
+.company-address {
+    font-size: 12px;
+    line-height: 15px;
+    opacity: .6
+}
+
+.agree-text {
+    line-height: 12px
+}
+
+@media (max-width: 767.5px) {
+    .pass-hint p.done {
+        -webkit-animation: passhint .5s forwards;
+        -webkit-animation-iteration-count: 1;
+        -webkit-animation-delay: 3s;
+        animation: passhint .5s forwards;
+        animation-iteration-count: 1;
+        animation-delay: 3s;
+        position: relative
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .register .pin-char {
+        padding-left: 10px !important;
+        padding-right: 10px !important
+    }
+}
+
+.validation-summary-errors {
+    font-family: var(--font-regular);
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 5px 30px;
+    margin: 10px 0 0
+}
+
+.modal-open {
+    position: relative;
+    padding-right: 0 !important
+}
+
+.modal-backdrop.show {
+    opacity: .7
+}
+
+.small-blocker {
+    padding-right: 0 !important
+}
+
+.small-blocker .modal-dialog {
+    max-width: 900px;
+    max-height: 55px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    top: 10%
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 100%
+    }
+}
+
+.cc-window {
+    z-index: 1027
+}
+
+@media (max-width: 575px) {
+    .register .inner-col {
+        padding: 25px 27px
+    }
+
+    .small-col-layout .col-right .h1 {
+        font-size: 24px
+    }
+}
+
+.register .side-note {
+    vertical-align: baseline
+}
+
+.register .side-note a {
+    color: var(--black)
+}
+
+.register .benefits {
+    border-bottom-color: rgba(var(--black-rgb), .1)
+}
+
+.register .custom.pincode {
+    border-right-color: var(--gray-light-2)
+}
+
+.register .custom.pincode.active, .register .custom.pincode:focus {
+    border-color: var(--gray-light-1)
+}
+
+.agree-text .field-validation-error + .custom-checkbox .control-wrap {
+    border-color: var(--red) !important
+}
+
+.validation-summary-errors {
+    background: var(--red);
+    color: var(--white) !important;
+    box-shadow: 0 2px 10px rgba(var(--black-rgb), .15)
+}
+
+.cc-window {
+    box-shadow: 0 1px 3px 0 rgba(var(--black-rgb), .1)
+}
+
+@media (min-width: 768px) {
+    .small-col-layout > .row > .right {
+        padding: 0
+    }
+}
